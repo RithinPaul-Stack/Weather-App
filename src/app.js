@@ -27,16 +27,16 @@ app.get('', (req,res)=>
 app.get('/help', (req,res)=>
 {
     res.render('help',{
-        title:'Help',
-        name:'Company WeatherAnyTime cares'
+        title:'Seek Help?',
+        name:'WeatherAnyTime cares for you anytime, write to us on'
     })
 })
 
 app.get('/about', (req,res)=>
 {
-    res.render('weather',{
-        title:'About Company',
-        name:'Established in 2020'
+    res.render('about',{
+    
+        name:'This site wad created by Rithin Paul Reddy K. It uses data from mapbox and weather stack!'
     })
 })
 
